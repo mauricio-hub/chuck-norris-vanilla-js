@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuck Norris App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <h1>Chuck Norris Jokes</h1>
+
+    <img src="1.png" alt="">
+   </header>
+    
+
+
+
+    <div id="jokes" class="box-jokes">
+        <h2>Jokes</h2>
+     
+        <div class="menu-box">
+            <button class="btn" id="btn" onclick="consultarAPI()">Get joke</button>
+        
+           
+               
+                <form action="" id="form">
+                    <select name="select" id="categoria">
+                        <option value="value1" disabled selected>Categorys</option>
+                       
+                      </select>
+                       <input class="btn" id="btn"  type='submit' value="Get Joke by Category"/>
+                </form>
+               
+              
+        </div>
+
+        <div id="resultado" class="resultado">
+
+        </div>
+    </div>        
+
+
+    <script src="app.js"></script>
+</body>
+</html>
